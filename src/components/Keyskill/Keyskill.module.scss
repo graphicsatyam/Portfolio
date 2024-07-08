@@ -1,0 +1,83 @@
+@import '../../styles/contants.scss';
+
+.wrapper {
+    background-color: rgb(255, 255, 255);
+
+}
+.container { 
+    @media (max-width: $sm) {
+        display: flex;
+        flex-direction: column;
+        gap: .2rem;
+        padding: 2rem;
+        
+    }
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    flex-direction: row;
+}
+.box{
+    @media (max-width: $sm) {
+        width: auto;
+        gap: 1rem;
+        border: 2px solid rgb(133, 76, 230);
+        box-shadow: rgba(23, 92, 230, 0.15) 0px 10px 24px;
+        
+    }
+    // height: 290px;
+    border-radius: 20px;
+    border: 0.1px solid rgb(133, 76, 230);
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    width: 420px;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 15px;
+    text-align: center;
+}
+
+.frontend {
+   
+        justify-content: center;
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+        gap : 1.3rem;
+        padding-top: 30px;
+    }
+
+.smallBox {
+    border-radius: 10px;
+    padding: 3px;
+border: 2px solid black;
+display:inline;
+display: flex;
+    align-items: center;
+}
+.text {
+    font-size: 1rem;
+    padding: .6rem ;
+    text-align: center;
+}
+
+.skills {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image {
+    // height: 2rem;
+    width: 3rem;
+    
+}
+.image img {
+    margin-top: .3rem;
+    font-size: 1rem;
+    padding: 0rem 0.6rem 0rem;
+    text-align: center;
+}

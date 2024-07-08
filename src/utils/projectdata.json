@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Freelancing : Press Website",
+        "description": "This Website is related to do the work of Printing Press",
+        "skills": ["HTML", "CSS", "Java Script", "Bootstrap", "MongoDB"],
+        "image": "./showCase1.png",
+        "code" : "https://github.com/graphicsatyam/Maa_Saraswati_Press",
+        "livelink" : "https://maasaraswatipress.cyclic.app/",
+        "details": "Designed and developed a dynamic resume building website from scratch using a modern tech stack including HTML, CSS, JavaScript, Bootstrap, and MongoDB. This project showcases proficiency in both front-end and back-end web development, as well as database management."
+    },
+    {
+        "title": "E-Commerce Website",
+        "description": "This Website is related to do the work of Printing Press",
+        "skills": ["HTML", "CSS", "JS", "Node.js"],
+        "image": "./showCase2.png",
+        "details": "Conceptualized, designed, and developed a fully functional e-commerce website, demonstrating proficiency in front-end and back-end web development using HTML, CSS, JavaScript, and Node.js. This project showcases the ability to create dynamic website.",
+        "code" : "https://github.com/graphicsatyam/E-Commerce_Website",
+        "livelink" : "https://graphicsatyam.github.io/E-Commerce_Website/"
+    },
+    {
+        "title": "Weather Project",
+        "description": "This Website is related to do the work of Printing Press",
+        "skills": ["HTML", "CSS", "JS", "Bootstrap"],
+        "image": "./showCase3.png",
+        "code" : "https://github.com/graphicsatyam/WeatherProject",
+        "details" : "Designed and developed a dynamic weather project website, providing real-time weather information for cities worldwide. Leveraged HTML, CSS, JavaScript, and Bootstrap to create a user-friendly interface that allows users to easily access weather data for their desired locations.",
+        "livelink" : "https://graphicsatyam.github.io/WeatherProject/"
+    },
+    {
+        "title": "Cloth Donation Camp",
+        "details": "Led the development of a dynamic cloth donation camp website aimed at organizing and managing cloth donation drives efficiently. Leveraged HTML, CSS, JavaScript, Node.js, and MongoDB to create a robust platform that facilitates the donation process, manages inventory, and enhances community engagement.",
+        "description": "This Website is related to do the work of Printing Press",
+        "skills": ["HTML", "CSS", "JS", "React.JS"],
+        "image": "./showCase4.png",
+        "code" : "https://github.com/graphicsatyam/Cloth-Donation",
+        "livelink" : "https://graphicsatyam.github.io/Cloth-Donation/"
+    }
+]

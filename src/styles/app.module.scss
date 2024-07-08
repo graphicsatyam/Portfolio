@@ -1,0 +1,10 @@
+@import './contants.scss';
+
+.container {
+    overflow-x: clip;
+    color: $primary;
+    position: relative;
+    height: 200vh;
+    // width: 100vh;
+    // background-color: red;
+}

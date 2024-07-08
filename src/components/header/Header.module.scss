@@ -1,0 +1,96 @@
+@import '../../styles/contants.scss';
+
+.name {
+    gap: 90px;
+}
+.menuIcon{
+    display: none;
+    @media (max-width: $sm),
+    (max-width: $md) {
+        
+        display: block;
+    }
+}
+.wrapper {
+
+    position: relative;
+    z-index: 60;
+    opacity: 1;
+    transform: none;
+    position: sticky;
+    top: 0;
+    transition: all 300ms ease;
+    background-image: linear-gradient(to right,rgb(255, 245, 209), rgb(255, 255, 255));
+
+    .container {
+        position: relative;
+        justify-content: space-between;
+        font-weight: 500;
+    }
+    .name {
+        font-size: 1.5rem;
+        font-weight: 2px;
+        color: green;
+    }
+   
+    .menu {
+
+        @media (max-width: $sm),
+        (max-width: $md) {
+            
+            position: fixed;
+            display: none;
+            background-color: white;
+            list-style: none;
+            gap: 2rem;
+            font-weight: 500;
+            flex-direction: column;
+            right: 0;
+            top: 4rem;
+            width: 50%;
+            min-width: 15rem;
+            padding: 2rem;
+            display: flex;
+            border-radius: 2rem;
+            transition: all 300ms ease;
+            align-items: flex-start;
+            padding: 3rem;
+            justify-content: flex-end;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        }
+        text-transform: uppercase;
+        font-size: .9rem;
+        list-style: none;
+        cursor: pointer;
+
+        li {
+            padding: 1px 23px;
+           
+
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+
+            &:hover {
+                color: green;
+            }
+        }
+
+        .phone {
+            gap: 12px;
+        
+
+            
+            svg {
+                background-color: rgb(255, 255, 255);
+                border-radius: 100px;
+                padding: 5px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                
+            }
+        }
+    };
+}
+

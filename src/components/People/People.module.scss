@@ -1,0 +1,27 @@
+@import "../../styles/contants.scss";
+
+.wrapper{
+    .container {
+       .heading {
+        flex-direction: column;
+        @media (max-width: $sm) {
+                    text-align: center;
+                }
+       }
+        p {
+            line-height: 30px;
+            @media (max-width: $sm) {
+                text-align: center;
+            }
+        }
+    }
+}
+
+.paddings {
+    padding: 1rem;
+}
+
+// .rightside {
+//     @media (max-width: $sm) {
+//         text-align: center;
+//     }

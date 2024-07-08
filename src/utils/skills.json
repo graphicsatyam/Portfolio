@@ -1,0 +1,93 @@
+{
+ 
+      "frontend": [
+        {
+            "title": "HTML5",
+            "level": "Advanced",
+            "path": "./html5.svg"
+          },    
+               
+        {
+          "title": "CSS3",
+          "level": "Advanced",
+          "path": "./css3.svg"
+        },
+        {
+          "title": "JavaScript",
+          "level": "Intermediate",
+          "path": "./javascript-js.svg"
+        },
+        {
+            "title": "React.js",
+            "level": "Intermediate",
+            "path": "./react.svg"
+          },
+          {
+            "title": "Vite",
+            "level": "Intermediate",
+            "path": "./Vite.png"
+          },
+        {
+            "title": "Bootstrap",
+            "level": "Intermediate",
+            "path": "./bootstrap.svg"
+          }
+          
+      ],
+      "backend": [
+        {
+          "title": "Node.js",
+          "level": "Intermediate",
+          "path": "./node-js.svg"
+        },
+        {
+          "title": "Express.js",
+          "level": "Intermediate",
+          "path": "./express-original.svg"
+        },
+        {
+          "title": "MongoDB",
+          "level": "Intermediate",
+          "path": "./mongodb-icon.svg"
+        }
+        
+      ],
+      "others": [
+        {
+          "title": "C Language",
+          "level": "Intermediate",
+          "path": "./clang.png"
+        },
+        {
+          "title": "Git",
+          "level": "Intermediate",
+          "path": "./githubnew.svg"
+        },
+        {
+          "title": "Github",
+          "level": "Beginner",
+          "path": "./git.svg"
+        },
+        {
+          "title": "Rest API",
+          "level": "Beginner",
+          "path": "./api.png"
+        },
+        {
+          "title": "VS Code",
+          "level": "Beginner",
+          "path": "./vs.png"
+        },
+        {
+          "title": "Corel Draw",
+          "level": "Beginner",
+          "path": "./corel.png"
+        },
+        {
+          "title": "Adobe Photoshop",
+          "level": "Beginner",
+          "path": "./ps.png"
+        }
+      ]
+  }
+  

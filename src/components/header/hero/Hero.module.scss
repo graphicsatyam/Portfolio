@@ -1,0 +1,114 @@
+@import '../../../styles/contants.scss';
+
+.wrapper {
+
+    overflow: hidden;
+
+
+    .container {
+
+        position: relative;
+        z-index: 1;
+
+    .upperElements {
+        @media (max-width: $sm) {
+            // font-size: 40px;
+            max-width: 100%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            font-size: 1.4rem;
+        }
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .satyam {
+        @media (max-width: $sm), (max-width: $md) {
+            width: 19rem;
+            position: relative;
+            margin-top: -60px;
+            margin-bottom: 10px;
+            left: -1%;
+            background-size: 18rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-position: bottom;
+
+        }
+        width: 26rem;
+        position: absolute;
+        margin: auto;
+        bottom: -4.2rem;
+        background-image: url('../splash.png');
+        background-repeat: no-repeat;
+        background-size: 26rem;
+        left: 33%;
+    }
+    .email {
+        
+        @media (max-width: $sm), (max-width: $md) {
+            position: relative;
+            display: none;
+        }
+        position: absolute;
+        top: 43%;
+        left: 0;
+        text-decoration: none;
+        color: rgb(255, 166, 0);
+
+    }
+       
+
+    .lowerElements {
+        @media (max-width: $sm), (max-width: $md) {
+            margin-top: 4rem;
+            gap: 2rem;
+            text-align: center;
+            justify-content: center;
+        }
+        display: flex;
+        margin-top: 12rem;
+        justify-content: space-between;
+        // align-items: center  ;
+    .experience {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        >:nth-child(2) {
+            line-height: 23px;
+        }
+    }
+
+    .certificate {
+        @media (max-width: $sm), (max-width: $md) {
+        //    width: 30px;
+            margin-bottom: 2rem;
+           margin-top: 25px;
+           font-size: 10px;
+           text-align: center;
+        }
+        display: flex;  
+        flex-direction: column;
+        align-items: center;
+
+    img {
+        @media (max-width: $sm), (max-width: $md) {
+            width: 2.5rem;
+                margin-bottom: 0.5rem;
+               margin-top: 1px;
+               
+            }
+        margin-bottom: 1rem;
+    }
+    }
+    }
+
+    }
+}
