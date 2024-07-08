@@ -3,10 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://github.com/graphicsatyam/Portfolio",
   "scripts": {
     "start": "yarn vite --port 3001",
     "dev": "vite",
-    "preview": "vite preview"
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "framer-motion": "^8.0.2",
