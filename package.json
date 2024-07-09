@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "./",
+  "homepage": "https://graphicsatyam.github.io/Portfolio/",
   "scripts": {
     "start": "vite --port 3001",
     "dev": "vite",

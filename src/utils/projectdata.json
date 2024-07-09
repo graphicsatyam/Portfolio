@@ -1,5 +1,46 @@
 [
     {
+        "title": "Event Management Website",
+        "description": "Designed and integrated user authentication features, including login, signup & password reset functionalities using Nodemailer, ensuring secure access and user management. ",
+        "skills": ["CSS", "Java Script", "ReactJS", "Node.js", "Express.js", "MongoDB"],
+        "image": "./showCase0.jpg",
+        "code" : "https://github.com/graphicsatyam/Cheers_To_Life_Frontend_New",
+        "livelink" : "https://tramt-frontend.vercel.app/",
+        "details": "Designed and integrated user authentication features, including login, signup & password reset functionalities using Nodemailer, ensuring secure access and user management. Developed an admin panel for streamlined event management & used Postman to test API endpoints. "
+    },
+    
+    
+    {
+        "title": "Myntra Clone Website",
+        "description": "",
+        "skills": ["CSS", "Java Script", "ReactJS", "Redux", "Node.js", "Express.js", "MongoDB"],
+        "image": "./myntra.jpg",
+        "code" : "https://github.com/graphicsatyam/Myntra_Clone",
+        "livelink" : "https://myntra-clone-beta-blue.vercel.app",
+        "details": "Ensured compatibility across various devices & screen sizes with fully functional shopping cart interface with add, update, and remove item features. Developed a full-featured E-Commerce Website Clone of Myntra using React.js.  "
+    },
+
+    {
+        "title": "Property Buddy Realtors",
+        "description": "",
+        "skills": ["HTML", "CSS", "Java Script", "Bootstrap", "React.JS"],
+        "image": "./showCase5.jpg",
+        "code" : "https://github.com/graphicsatyam/Property",
+        "livelink" : "https://property-pied-pi.vercel.app/",
+        "details": "Developed a responsive website for selling flats and villas in Noida, featuring detailed property listings, virtual tours, advanced search functionalities, user-friendly interface, and secure online booking options to enhance customer engagement and streamline the property buying process."
+    },
+
+    {
+        "title": "Innovative Interior, Gurgaon",
+        "description": "",
+        "skills": ["HTML", "CSS", "Java Script", "Bootstrap", "React.JS"],
+        "image": "./showCase6.jpg",
+        "code" : "https://github.com/graphicsatyam/Innovative-Interior-Gurgaon",
+        "livelink" : "https://innovative-interior-gurgaon.vercel.app/",
+        "details": "Created a Fully Functional Website related to the products of Interior Design and perfect use of EmailJS to send the feedback. Developed a comprehensive Single Page Application (SPA) using React.js, providing a seamless and dynamic user experience."
+    },
+
+    {
         "title": "Freelancing : Press Website",
         "description": "This Website is related to do the work of Printing Press",
         "skills": ["HTML", "CSS", "Java Script", "Bootstrap", "MongoDB"],
