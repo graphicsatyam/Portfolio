@@ -42,7 +42,8 @@ const Header = () => {
               className={`flexCenter ${css.phone}`}
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1YR6obRHlWlccm1gKuEjwa1HEXmqm0WUz/view?usp=sharing"
+                  "https://drive.google.com/file/d/1d-6MEA4CBLz4mW10l-1HVWHQgjr7SU54/view?usp=drive_link"
+                  
                 )
               }
             >
